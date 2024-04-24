@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pizzas service",
+            "type": "python",
+            "request": "launch",
+            "pythonPath": "C:/Users/abrahams02/AppData/Local/pypoetry/Cache/virtualenvs/stock-analysis-crew-Ix_raQPP-py3.11/Scripts/python.exe",
+            "cwd": "${workspaceFolder}/stock_analysis/",
+            "module": "uvicorn",
+            "args": [
+                "src.main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000",
+                "--reload"
+            ]
+        }
+    ]
+}
